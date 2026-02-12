@@ -188,16 +188,63 @@ You can test the APIs using:
 
 ---
 
-## ⚙ Important Implementation Details
+🚀 Deployed Application
 
-- The application follows a layered architecture:
-  - Controller layer handles HTTP requests.
-  - Service layer contains business logic.
-  - Model layer defines the data structure.
-- REST principles are followed.
-- Proper HTTP status codes are returned.
-- In-memory storage is used instead of a database.
-- Data resets when the server restarts.
+The application is deployed on Railway and is publicly accessible.
 
----
+🔗 Live Base URL:
+https://profound-enjoyment-production-df92.up.railway.app/movies
+
+📌 How to Use the Deployed API
+
+You can test the live API using:
+1. Postman
+2. cURL
+3. Any REST client
+
+Browser (for GET requests)
+✅ 1. Add a Movie (POST)
+
+Endpoint:
+
+POST https://profound-enjoyment-production-df92.up.railway.app/movies
+
+
+Request Body (JSON):
+
+{
+  "name": "Inception",
+  "description": "A dream-based thriller",
+  "genre": "Sci-Fi"
+}
+
+✅ 2. Get Movie by ID (GET)
+
+Endpoint:
+
+GET https://profound-enjoyment-production-df92.up.railway.app/movies/1
+
+
+Open directly in browser or Postman.
+
+✅ 3. Update Movie (PUT)
+
+Endpoint:
+
+PUT https://profound-enjoyment-production-df92.up.railway.app/movies/1
+
+
+Request Body (JSON):
+
+{
+  "name": "Updated Name",
+  "description": "Updated description",
+  "genre": "Drama"
+}
+
+✅ 4. Delete Movie (DELETE)
+
+Endpoint:
+
+DELETE https://profound-enjoyment-production-df92.up.railway.app/movies/1
 
