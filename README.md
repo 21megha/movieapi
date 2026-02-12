@@ -201,7 +201,3 @@ You can test the APIs using:
 
 ---
 
-## 👩‍💻 Author
-
-Megha Vishvkarma  
-Java Backend Developer
