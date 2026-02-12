@@ -193,7 +193,7 @@ You can test the APIs using:
 The application is deployed on Railway and is publicly accessible.
 
 🔗 Live Base URL:
-https://profound-enjoyment-production-df92.up.railway.app/movies
+https://profound-enjoyment-production-df92.up.railway.app
 
 📌 How to Use the Deployed API
 
